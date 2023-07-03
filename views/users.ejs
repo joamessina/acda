@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Usuarios</title>
+</head>
+<body>
+  <h1>Todos los usuarios</h1>
+  <% users.forEach(user => { %>
+    <h2><%= user.name %></h2>
+    <p><%= user.status %></p>
+  <% }); %>
+</body>
+</html>
